@@ -1,4 +1,8 @@
 var main = function (input) {
-  var myOutputValue = 'hello world';
-  return myOutputValue;
+  return addExclamationMark(input);
+};
+
+var addExclamationMark = function (input) {
+  var newSentence = input + "!";
+  return newSentence;
 };
