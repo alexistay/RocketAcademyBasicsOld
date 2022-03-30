@@ -27,11 +27,7 @@ var doesXWinY = function (x, y) {
 };
 
 var isValidInput = function (input) {
-  if (input !== SCISSORS && input !== PAPER && input !== STONE) {
-    return false;
-  } else {
-    return true;
-  }
+  return input === SCISSORS || input === PAPER || input === STONE;
 };
 
 var main = function (input) {
